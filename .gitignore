@@ -1,13 +1,26 @@
-﻿# .gitignore
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
-venv/
-*.h5
-*.keras
-
-# Ignore dataset files but keep the README
+﻿@'
+# Dataset files — too large for GitHub
 data/fashion_mnist/
 *.npz
 
+# Model weights
+models/*
+!models/.gitkeep
+
+# Generated plots
+outputs/*
+!outputs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
 .DS_Store
+Thumbs.db
+'@ | Out-File -FilePath ".gitignore" -Encoding utf8
