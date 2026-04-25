@@ -1,9 +1,13 @@
-# .gitignore
+﻿# .gitignore
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 venv/
 *.h5
 *.keras
-data/
+
+# Ignore dataset files but keep the README
+data/fashion_mnist/
+*.npz
+
 .DS_Store
