@@ -3,13 +3,13 @@
 data/fashion_mnist/
 *.npz
 
-# Model weights
-models/*
-!models/.gitkeep
+# # Model weights
+# models/*
+# !models/.gitkeep
 
-# Generated plots
-outputs/*
-!outputs/.gitkeep
+# # Generated plots
+# outputs/*
+# !outputs/.gitkeep
 
 # Python
 __pycache__/
