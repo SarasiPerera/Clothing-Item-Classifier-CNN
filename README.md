@@ -59,11 +59,8 @@ Clothing-Item-Classifier-CNN/
 
 ├── app/
 │   └── app.py
-├── src/
-│   ├── preprocess.py
-│   ├── model.py
-│   ├── train.py
-│   └── evaluate.py
+├── notebook/
+│   ├── fashion_mnist_lenet5.ipynb
 ├── data/
 │   └── fashion_mnist/
 ├── models/
