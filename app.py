@@ -103,7 +103,7 @@ st.markdown("""
   .bar-pct   { width: 42px; color: #555; font-variant-numeric: tabular-nums; }
 
   [data-testid="stFileUploader"] > div { border-radius: 12px !important; }
-  [data-testid="stSidebar"] { background: #f8f9fb; }
+  [data-testid="stSidebar"] { background:#123 ; color:white }
 </style>
 """, unsafe_allow_html=True)
 
@@ -117,13 +117,7 @@ st.markdown("""
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("### About")
-    st.write(
-        "This app uses a **LeNet-5** Convolutional Neural Network trained on "
-        "the **Fashion-MNIST** dataset (70,000 images, 10 classes)."
-    )
-    st.markdown("---")
-    st.markdown("### Classes")
+    st.markdown("### Fashion Items")
     for emoji, name in zip(CLASS_EMOJIS, CLASS_NAMES):
         st.markdown(f"{emoji} &nbsp; {name}", unsafe_allow_html=True)
     st.markdown("---")
