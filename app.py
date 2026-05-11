@@ -6,7 +6,7 @@ import os
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Fashion-MNIST Classifier",
-    page_icon="👗",
+    #page_icon="👗",
     layout="centered",
     initial_sidebar_state="expanded",
 )
